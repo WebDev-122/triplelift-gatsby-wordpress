@@ -4,31 +4,31 @@ import { Link } from "gatsby";
 export default function Menu() {
   useEffect(() => {
     const $ = window.jQuery;
-    var url = typeof window !== "undefined" ? window.location.href : "";
-    if (url.substr(url.length - 1) === "/") url = url.slice(0, -1);
-    var urlArr = url.split("/");
-    var lastPath = urlArr[urlArr.length - 1];
-    if ( lastPath === "video" || lastPath === "video-demo" || lastPath === "we-go-beyond") {
+    // var url = typeof window !== "undefined" ? window.location.href : "";
+    // if (url.substr(url.length - 1) === "/") url = url.slice(0, -1);
+    // var urlArr = url.split("/");
+    // var lastPath = urlArr[urlArr.length - 1];
+    // if ( lastPath === "video" || lastPath === "video-demo" || lastPath === "we-go-beyond") {
       $('.main-menu-item').hide();
       $('.login').hide();
       $('.demo-page').show();
-      if(lastPath === "video-demo") {
-        $('.overview-menu').show();
-        $('.demo-menu').hide();
-      }
-      if(lastPath === "video") {
-        $('.overview-menu').hide();
-        $('.demo-menu').show();
-      }
-      if(lastPath === "we-go-beyond") {
-        $('.overview-menu').hide();
-        $('.demo-menu').hide();
-      }
-    } else {
-      $('.main-menu-item').show();
-      $('.login').show();
-      $('.demo-page').hide();
-    }
+      // if(lastPath === "video-demo") {
+      //   $('.overview-menu').show();
+      //   $('.demo-menu').hide();
+      // }
+      // if(lastPath === "video") {
+      //   $('.overview-menu').hide();
+      //   $('.demo-menu').show();
+      // }
+      // if(lastPath === "we-go-beyond") {
+      //   $('.overview-menu').hide();
+      //   $('.demo-menu').hide();
+      // }
+    // } else {
+    //   $('.main-menu-item').show();
+    //   $('.login').show();
+    //   $('.demo-page').hide();
+    // }
   }, []);
   return (
     <>
@@ -196,7 +196,7 @@ export default function Menu() {
 
         <div className="demo-page" style={{display: 'none'}}>
           <ul className="base-level">
-            <li className="overview-menu">
+            {/* <li className="overview-menu">
               <Link
                 className="ideas"
                 to="/video"
@@ -204,7 +204,7 @@ export default function Menu() {
               >
                 <span>Overview</span>
               </Link>
-            </li>
+            </li> */}
             <li className="demo-menu">
               <Link
                 className="ideas"

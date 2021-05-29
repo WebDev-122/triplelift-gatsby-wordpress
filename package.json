@@ -17,7 +17,7 @@
     "@wordpress/block-library": "^2.27.0",
     "fake-tag": "^2.0.0",
     "fuse.js": "^6.4.6",
-    "gatsby": "^3.2.1",
+    "gatsby": "^3.6.1",
     "gatsby-awesome-pagination": "^0.3.8",
     "gatsby-image": "^2.9.0",
     "gatsby-plugin-gatsby-cloud": "^2.3.0",

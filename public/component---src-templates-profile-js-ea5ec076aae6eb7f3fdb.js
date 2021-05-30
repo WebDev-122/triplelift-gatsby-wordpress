@@ -1,0 +1,2 @@
+(self.webpackChunktriplelift_gatsby_wordpress=self.webpackChunktriplelift_gatsby_wordpress||[]).push([[212],{6728:function(e,t,r){"use strict";r.r(t);var l=r(7294),a=r(5866),s=r(7487);t.default=function(e){var t=e.data.wpProfile.title;return l.createElement(a.Z,null,l.createElement(s.Z,{title:t}),l.createElement("h1",{style:{color:"red"}},t))}}}]);
+//# sourceMappingURL=component---src-templates-profile-js-ea5ec076aae6eb7f3fdb.js.map
